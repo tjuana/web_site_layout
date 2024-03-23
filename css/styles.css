@@ -1,0 +1,123 @@
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Monaco;
+}
+
+body {
+	/* ash grey */
+	background-color: rgb(168, 179, 175);
+	margin: 1em;
+}
+
+header > img {
+	display: block;
+	margin: 0 auto 2% auto;
+	width: 50vw;
+}
+
+/* navigation */
+nav {
+	padding: 1rem;
+	/* feld grey */
+	background-color: #4D5D57;
+	border-radius: 10px;
+}
+
+nav ul {
+	display:flex;
+	justify-content: space-around;
+	list-style: none;
+	font-size: 5vw;
+}
+
+nav a {
+	text-decoration: none;
+	/* old gold */
+	color: rgb(203, 186, 103);
+}
+
+h1 {
+	font-size: 3rem;
+	color: white;
+	padding: 1rem 0 1rem 1rem;
+}
+
+h2 {
+	font-size: 2rem;
+	padding: 1rem;
+}
+
+p {
+	padding: 1rem 1rem 1rem 1rem;
+}
+
+/* main section */
+
+main {
+	margin: 1em;;
+}
+
+section {
+	margin-bottom: 1em;
+}
+
+/* banner */
+
+#banner {
+	box-shadow: 1px 1px 1px rgb(49, 71, 68);
+	/* old gold */
+	border-radius: 10px;
+	background-color: rgb(203, 186, 103);
+	border-style: solid;
+	cursor: pointer;
+}
+
+#banner:hover {
+	box-shadow: 4px 4px 4px rgb(49, 71, 68);
+	transition: 0.5s linear;
+}
+
+#banner p {
+	color: white;
+}
+
+#columns-sections article {
+	/* feld grey */
+	flex: 1;
+	border-radius: 10px;
+	background-color: #4D5D57;
+	border: 1px solid black;
+	box-shadow: 1px 1px 1px rgb(49, 71, 68);
+}
+
+#columns-sections img {
+	max-width: 100%;
+	border-radius: 10px 10px 0 0;
+}
+
+#columns-sections {
+	display: inline-flex;
+	justify-items: stretch;
+	gap: 1em;
+	flex-flow: row wrap;
+}
+
+/* footer */
+
+footer {
+	display: flex;
+}
+
+footer div {
+	flex: 1;
+}
+
+footer img {
+    height: 20vw;
+    padding: 3%;
+    background-color: transparent;
+    overflow: visible;
+}
